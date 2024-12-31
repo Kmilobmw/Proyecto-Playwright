@@ -26,9 +26,9 @@ test('Captura inicio de sesión', async ({ browser }) => {
   await page.waitForTimeout(2000);
 
 
-  await page.fill('#TxtUsuaLogin', 'ADMIN');
-  await page.fill('#TxtPassLogin', 'Guru$0f7*!_**...PRUEB');
-  await page.fill('#TxtRucCompania', '901014886');
+  await page.fill('#TxtUsuaLogin', '11');
+  await page.fill('#TxtPassLogin', '11');
+  await page.fill('#TxtRucCompania', '11');
   await page.waitForTimeout(500);
 
   // Toma captura una vez ingresa los datos
